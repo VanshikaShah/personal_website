@@ -115,7 +115,7 @@
     </section>
 
     <section id="experience" class="section">
-    
+    <p class="eyebrow">About Me</p>
       <div class="section-heading centered">
         <h2>Industry Experience</h2>
       </div>
@@ -158,8 +158,10 @@
         <article class="experience-row">
             <div class="role-date mono">Jan 2025 – May 2026</div>
             <div>
-            <h3>Graduate Teaching Assistant</h3><br>
-            <span class="role-org">Georgia Institute of Technology · Atlanta, GA</span>
+            <div class="role-heading">
+              <h3>Graduate Teaching Assistant</h3><br>
+              <span class="role-org">Georgia Institute of Technology · Atlanta, GA</span>
+            </div>  
             <ul>
               <li><strong>Machine Learning</strong> (Graduate, Aug 2025–May 2026) — Supported instruction on supervised and unsupervised learning, model evaluation, and algorithmic implementations, reinforcing core ML concepts through assignments, discussions, and applied problem-solving.</li>
               <li><strong>Computing for Data Analysis</strong> (Advanced Undergraduate, 100+ students, Jan 2025–Apr 2025) — Developed and demonstrated course materials and interactive case studies on statistical modelling, regression analysis, and large language models, integrating ML concepts to prepare students for real-world applications.</li>
@@ -174,7 +176,8 @@
               <span class="role-org">Bio-MIBLab, Georgia Institute of Technology · Atlanta, GA (Supervisor: Dr. May Wang)</span>
             </div>
             <ul>
-              <li>Built a hybrid NLP clinical note summarization pipeline combining transformer-based LLMs (FLAN-T5 and a domain-adapted medical LLM) with an uncertainty-aware filtering layer using Monte Carlo dropout and NLI-based factuality checks to remove unsupported content and improving semantic faithfulness (BERTScore F1: 0.82 vs. 0.63–0.69 baselines) while reducing summary length by ~40%.</li>
+              <li>Built a hybrid clinical note summarization pipeline combining FLAN-T5 and a domain-adapted medical LLM with a novel uncertainty-aware filtering layer, using Monte Carlo dropout for sentence-level uncertainty estimation and NLI-based factuality checks (CELV) to detect and remove unsupported or contradictory content.</li>
+              <li>Evaluated the pipeline on 4,900+ clinical notes (MTSamples), improving semantic faithfulness (BERTScore F1: 0.82 vs. 0.63–0.69 baselines) and reducing summary length by ~40% — demonstrating hallucination reduction without retraining the underlying LLM.</li>
             </ul>
           </div>
         </article>
@@ -183,8 +186,8 @@
           <div class="role-date mono">Summer 2019</div>
           <div>
             <div class="role-heading">
-              <h3>Research Intern</h3><br>
-              <span class="role-org">Georgia Institute of Technology · Atlanta, GA (Supervisor: Dr. Omer Inan)</span>
+              <h3>Research Intern<br>
+              <span class="role-org">Georgia Institute of Technology · Atlanta, GA (Supervisor: Dr. Omer Inan)</span></h3>
             </div>
             <ul>
               <li>Built biomechanical models in OpenSim to simulate knee joint loading under varying gait conditions, leveraging regression and optimization techniques to analyze physiological responses and generate insights for osteoarthritis prevention research.</li>
